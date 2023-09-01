@@ -1,0 +1,76 @@
+.App {
+}
+.inner_container {
+  display: flex;
+  background-color: #ccc;
+  min-height: 75vh;
+  width: 50vw;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.top_inner_container {
+  /* background-color: #eee; */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  gap: 10px;
+  min-height: 100%;
+  padding: 10px;
+  width: 90%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.left input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.right {
+  padding: 5px;
+}
+
+.add_button,
+.delete_button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.send_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.down_inner_container {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.todo_data {
+  margin-left: 10px;
+}
+
+.todo_button_container {
+  margin-right: 10px;
+}

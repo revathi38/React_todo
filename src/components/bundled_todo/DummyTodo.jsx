@@ -80,7 +80,10 @@ function DummyTodo() {
 
                 <div className="right">
                   <button className="add_button">
-                    <i className="fas fa-edit" onClick={updateTodoHandler}></i>
+                    <i
+                      className="fas fa-edit icon"
+                      onClick={updateTodoHandler}
+                    ></i>
                   </button>
                 </div>
               </>
@@ -101,7 +104,7 @@ function DummyTodo() {
                 <div className="right">
                   <button className="add_button">
                     <i
-                      className="fa fa-paper-plane send_icon"
+                      className="fa fa-paper-plane send_icon icon"
                       aria-hidden="true"
                       onClick={addTodoHandler}
                     ></i>
@@ -121,14 +124,14 @@ function DummyTodo() {
                 <div className="todo_button_container">
                   <button className="delete_button">
                     <i
-                      className="fas fa-edit"
+                      className="fas fa-edit icon"
                       onClick={() => editTodoHandler(todo.id)}
                     ></i>
                   </button>
 
                   <button className="delete_button">
                     <i
-                      className="fa fa-trash"
+                      className="fa fa-trash icon"
                       aria-hidden="true"
                       onClick={() => deleteTodoHandler(todo.id)}
                     ></i>

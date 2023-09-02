@@ -1,5 +1,5 @@
 import "./DummyTodo.css";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Profiler } from "react";
 
 function DummyTodo() {

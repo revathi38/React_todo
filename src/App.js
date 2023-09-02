@@ -1,11 +1,12 @@
 import React from "react";
-import DummyTodo from "./components/bundled_todo/DummyTodo";
+import Todo from "./apps/todo/Todo";
+import { TodoContextProvider } from "./context/todoContext.js";
 
 const App = () => {
   return (
-    <div>
-      <DummyTodo />
-    </div>
+    <TodoContextProvider>
+      <Todo />
+    </TodoContextProvider>
   );
 };
 

@@ -1,0 +1,68 @@
+.todo {
+  background-color: #ccc;
+  min-height: 75vh;
+  width: 35vw;
+}
+
+.todo__title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.todo_top_inner_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.todo_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_right {
+  display: flex;
+  align-items: center;
+}
+
+.todo_down_inner_container {
+}
+
+.button_icon {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.add_button {
+  background-color: purple;
+}
+
+.update_button {
+  background-color: blue;
+}
+
+.edit_button {
+  background-color: rgb(223, 223, 87);
+}
+
+.delete_button {
+  background-color: rgb(95, 40, 40);
+}
+
+.todo_item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.todo_content {
+  margin: 0 30px;
+}
+
+.todo_buttons {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
